@@ -1,3 +1,6 @@
+Socket.io project to notify users in Detail or EditView that someone else is working on a specific record
+
+
 Working with node.js 10.10.0 and npm>=6
 
 Install node.js
@@ -23,8 +26,3 @@ node -v
 Run in the root of the project
 
 npm install
-
-
-**Note : You may need to update `host` in `public/js/config.js`, `crmurl` in `public/js/config.js`, `corebosapi` in `public/setup.js`, `url` in `routes/nodeconfig.js` and `type` into prod or demo in `routes/nodeconfig.js` when it's not in localhost.**
-
-Run npm install to install of the node modules. Socket.io project to notify users in Detail or EditView that someone else is working on a specific record

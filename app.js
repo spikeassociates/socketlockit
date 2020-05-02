@@ -143,7 +143,6 @@ io.sockets.on('connection', function (socket) {
         if (index > -1) {
             key.splice(index, 1);
         }
-        console.log(key);
         if(key.length > 1){
             var block = 1;
         } else {
